@@ -29,9 +29,9 @@ then
     exit
 fi
 
-BASESCRIPT=dbscripts${RELEASE}/mysql5.7.sql
-APIMSCRIPT=dbscripts${RELEASE}/apimgt/mysql5.7.sql
-MBSCRIPT=dbscripts${RELEASE}/mb-store/mysql-mb.sql
+BASESCRIPT=/dbscripts${RELEASE}/mysql5.7.sql
+APIMSCRIPT=/dbscripts${RELEASE}/apimgt/mysql5.7.sql
+MBSCRIPT=/dbscripts${RELEASE}/mb-store/mysql-mb.sql
 SCHEMAPOSTFIX="${RELEASE}_${LOCATION}"
 
 echo "VERIFYING USER ACCOUNTS"
